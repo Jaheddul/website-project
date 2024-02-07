@@ -1,0 +1,84 @@
+* {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+<style> 
+    body {
+        background-image: url(C:\Users\jayhd\OneDrive\Desktop\Website\travel_agency.jpeg);
+    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color:#22BED9;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 40px;
+    font-weight: 25;
+}
+#navbar a:hover{
+    color: #000000;
+}
+footer {
+    background-color: #22BED9;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.socials a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 50px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-size: 100px;
+    font-weight: 400;
+}
+p {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    text-align: center;
+    font-size: 50px;
+}
+.brand {
+    font-weight: bold;
+}
+.nav-items {
+    list-style-type: none;
+    display: flex;
+}
+.nav-items li:not(last-child) {
+    margin-right: 10px;
+}
+.nav-items a {
+    text-decoration: none;
+    color: #000000;
+}
+.img1 {
+    width: 50%;
+}
+.images{
+    display:flex;
+    justify-content:center;
+}
+.greeceimages{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.japanimages {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
